@@ -12,7 +12,7 @@ source as (
  
 , renamed_recast as (
     select
-        address_id as addres_guid
+        address_id as address_guid
         , address
         , state
         , lpad(zipcode,5,0) as zip_code 
